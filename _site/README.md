@@ -1,4 +1,4 @@
-# My website (based on martin saveski's template)
+# My Personal Webpage
 
 ## Things to change
 baseurl in _config.yml

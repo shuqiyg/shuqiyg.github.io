@@ -1,48 +1,44 @@
 experiences:
-- place: "Stanford CS"
-  time: "2020 - now"
-  title: "Assistant professor"
+
+- place: "A.M Fredericks Underwriting Ltd"
+  time: "2022 - now"
+  title: "DevOps Programmer"
   subtitle: ""
   category: "work"
   
-- place: "Microsoft Semantic Machines"
-  time: "2019 - 2020"
-  title: "Researcher"
+- place: "Atria Youth Online Community"
+  time: "2020 - 2021"
+  title: "Coding Instructor"
   subtitle: ""
   category: "work"
 
-- place: "Stanford CS / Statistics"
-  time: "2016 - 2019"
-  title: "Postdoc"
-  subtitle: "Working for Percy Liang + John Duchi"
+- place: "Yeung & Associates Corp"
+  time: "2020"
+  title: "Legal Assistant"
+  subtitle: ""
   category: "work"
 
-- place: "MIT CSAIL"
-  time: "2011 - 2016"
-  title: "Ph.D."
-  subtitle: "Advised by Tommi Jaakkola + David Gifford"
-  category: "school"
-
-- place: "RIKEN BSI"
-  time: "2007 - 2011"
-  title: "Intern"
-  subtitle: "Laboratory for neural circuit theory"
-  category: "work"
-
-- place: "Optibrium LTD"
-  time: "Summer 2010"
-  title: "Summer Intern"
-  subtitle: "ML engineer"
-  category: "work"
-
-- place: "Harvard University"
-  time: "2007 - 2011"
+- place: "Seneca College"
+  time: "2019 - 2022"
   title: "Undergraduate"
-  subtitle: Cum laude and departmental honors in Statistics and Math. Advised by Edoardo Airoldi.
+  subtitle: Computer Software Engineering
   category: "school"
 
-- place: "U. Tokyo Institute of Medical Science"
-  time: "2006 - 2007"
-  title: "Intern and Translator"
-  subtitle: "Miyano research lab"
+- place: "WinupSure Inc"
+  time: "2019 - 2020"
+  title: "Equity Trader"
+  subtitle: ""
   category: "work"
+
+- place: "George Brown College"
+  time: "2017 - 2019"
+  title: "Advanced Diploma"
+  subtitle: Hospitality Administration/Management
+  category: "school"
+  
+- place: "George Brown College"
+  time: "2015 - 2017"
+  title: "Advanced Diploma"
+  subtitle: Accounting
+  category: "school"
+

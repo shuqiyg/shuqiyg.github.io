@@ -6,7 +6,7 @@ title: Home
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
   <p>
-    I am currently an assistant professor at the computer science department in Stanford university. 
+    I am currently a DevOps Programmer working at the IT Department of an underwriting company.
 </p>
   <p>
     
@@ -28,8 +28,8 @@ title: Home
 
 
 <div class="docs-section" id="people">
-  <h4>Advisees</h4>
-
+  <h4>Career Goals</h4>
+<!-- 
 
       {% assign current_people = site.data.students.students | where: "category", "current" %}
       {% for person in current_people %}
@@ -44,7 +44,7 @@ title: Home
                ({{ person.time }}) <i>{{ person.place }}</i>
           </p>
         </div>
-      {% endfor %}
+      {% endfor %} -->
 </div>
 
 
@@ -136,9 +136,9 @@ title: Home
 -->
 
 <div class="docs-section" id="publications">
-  <h4>Publications</h4>
+  <h4>Projects</h4>
 
-  <p>Most recent publications on <a href="https://scholar.google.com/citations?user=5ygiTwsAAAAJ" target="_blank">Google Scholar</a>.</p>
+  <!-- <p>Most recent publications on <a href="https://scholar.google.com/citations?user=5ygiTwsAAAAJ" target="_blank">Google Scholar</a>.</p> -->
 
   <ul class="tab-nav">
     <li><div class="button active" data-ref="#papers-sel">Selected and Recent Papers</div></li>
@@ -153,7 +153,7 @@ title: Home
     <div class="tab-pane active" id="papers-sel">
       {% assign papers = site.data.publications.papers | where: "selected", "y" %}
       {% for paper in papers %}
-        <div class="paper">
+        <!-- <div class="paper">
           <p class="title"><b>{{ paper.title }}</b>
             {% if paper.paper_pdf %}
               <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
@@ -176,7 +176,7 @@ title: Home
            <div class="paper-buttons">
 
           </div>
-        </div>
+        </div> -->
       {% endfor %}
     </div>
 
@@ -184,7 +184,7 @@ title: Home
     <div class="tab-pane" id="papers-all">
       {% assign papers = site.data.publications.papers %}
       {% for paper in papers %}
-        <div class="paper">
+        <!-- <div class="paper">
           <p class="title"><b>{{ paper.title }}</b>
             {% if paper.paper_pdf %}
               <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
@@ -207,7 +207,7 @@ title: Home
            <div class="paper-buttons">
 
           </div>
-        </div>
+        </div> -->
       {% endfor %}
     </div>
     
@@ -216,7 +216,7 @@ title: Home
     <div class="tab-pane" id="papers-ML">
       {% assign ml_papers = site.data.publications.papers | where: "statsml", "y" %}
       {% for paper in ml_papers %}
-        <div class="paper">
+        <!-- <div class="paper">
           <p class="title"><b>{{ paper.title }}</b>
             {% if paper.paper_pdf %}
               <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
@@ -239,7 +239,7 @@ title: Home
            <div class="paper-buttons">
 
           </div>
-        </div>
+        </div> -->
       {% endfor %}
     </div>
 
@@ -247,7 +247,7 @@ title: Home
     <div class="tab-pane" id="papers-NLP">
       {% assign nlp_papers = site.data.publications.papers | where: "nlp", "y" %}
       {% for paper in nlp_papers %}
-        <div class="paper">
+        <!-- <div class="paper">
           <p class="title"><b>{{ paper.title }}</b>
           {% if paper.paper_pdf %}
               <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
@@ -267,14 +267,14 @@ title: Home
           </p>
           <p>{{ paper.authors }}</p>
           <p><i>{{ paper.venue }}</i></p>
-        </div>
+        </div> -->
       {% endfor %}
     </div>
     <!-- Bio PAPERS -->
     <div class="tab-pane" id="papers-Bio">
       {% assign bio_papers = site.data.publications.papers | where: "bio", "y" %}
       {% for paper in bio_papers %}
-        <div class="paper">
+        <!-- <div class="paper">
           <p class="title"><b>{{ paper.title }}</b>
             {% if paper.paper_pdf %}
               <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
@@ -294,7 +294,7 @@ title: Home
           </p>
           <p>{{ paper.authors }}</p>
           <p><i>{{ paper.venue }}</i></p>
-        </div>
+        </div> -->
       {% endfor %}
     </div>
     
@@ -304,12 +304,12 @@ title: Home
 
 
 <div class="docs-section" id="teaching">
-  <h4>Teaching</h4>
+  <h4>Volunteer</h4>
   {% assign current_classes = site.data.classes.classes | where: "category", "current" %}
   {% for class in current_classes %}
-  <div class="class">
+  <!-- <div class="class">
     <p class="title"><b>{{ class.name }}</b> ({{ class.time }}): <a href={{class.link}} target="_blank">{{ class.title }}</a></p>
-  </div>
+  </div> -->
   {% endfor %}
 </div>
 
@@ -325,7 +325,7 @@ title: Home
 </div>
 --!>
 
-<div class="docs-section" id="former">
+<!-- <div class="docs-section" id="former">
   <h4>Former Advisees</h4>
 
 
@@ -343,7 +343,7 @@ title: Home
           </p>
         </div>
       {% endfor %}
-</div>
+</div> -->
 
 
 
@@ -376,7 +376,7 @@ title: Home
   <div class="docs-section" id="ack">
   <h4>Acknowledgement</h4>
   <p>
-    This website uses the website design and template by <a href="https://github.com/msaveski/www_personal">Martin Saveski</a>
+    This website is inspired by <a href="https://github.com/msaveski/www_personal">Martin Saveski</a>
   </p>
 
 </div>
