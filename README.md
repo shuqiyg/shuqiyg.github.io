@@ -1,4 +1,3 @@
-# Site settings
 title: Shuqi Yang
 twitter_username: syang
 name: Shuqi Yang
